@@ -36,8 +36,8 @@ func longestPalindrome(s string) string {
 }
 
 func main() {
-	fmt.Println(longestPalindrome("babad")) // "bab" or "aba"
-	fmt.Println(longestPalindrome("cbbd"))  // "bb"
-	fmt.Println(longestPalindrome("a"))     // "a"
-	fmt.Println(longestPalindrome("ac"))    // "a" or "c"
+	fmt.Println(longestPalindrome("babad"))
+	fmt.Println(longestPalindrome("cbbd"))
+	fmt.Println(longestPalindrome("a"))
+	fmt.Println(longestPalindrome("ac"))
 }
