@@ -35,7 +35,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return dummy.Next
 }
 
-// Helper function to create a linked list from a slice
+// function to create a linked list from a slice
 func createList(nums []int) *ListNode {
 	dummy := &ListNode{}
 	current := dummy
@@ -46,7 +46,7 @@ func createList(nums []int) *ListNode {
 	return dummy.Next
 }
 
-// Helper function to print a linked list
+// function to print a linked list
 func printList(l *ListNode) {
 	for l != nil {
 		fmt.Print(l.Val)
