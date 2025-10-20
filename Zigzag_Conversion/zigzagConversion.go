@@ -34,5 +34,5 @@ func convert(s string, numRows int) string {
 func main() {
 	s := "PAYPALISHIRING"
 	numRows := 3
-	fmt.Println(convert(s, numRows))
+	fmt.Println(convert(s, numRows)) // print "PAYPALISHIRING"
 }
